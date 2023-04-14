@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- web title -->
+    <title>Simple Online Calculator</title>
+
+    <!-- import reset css -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+
+    <!-- import css -->
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="grid">
+        <!-- display -->
+        <input id="display" type="text" />
+
+        <!-- row 1 -->
+        <button class="red" id="clear-all-button">AC</button>
+        <button class="blue" id="clear-button">CE</button>
+        <button class="operators" value="/">/</button>
+        <button class="operators" value="*">*</button>
+
+        <!-- row 2 -->
+        <button class="numbers" id="7" value="7">7</button>
+        <button class="numbers" id="8" value="8">8</button>
+        <button class="numbers" id="9" value="9">9</button>
+        <button class="operators" value="-">-</button>
+
+        <!-- row 3 -->
+        <button class="numbers" id="4" value="4">4</button>
+        <button class="numbers" id="5" value="5">5</button>
+        <button class="numbers" id="6" value="6">6</button>
+        <button class="operators" value="+">+</button>
+
+        <!-- row 4 -->
+        <button class="numbers" id="1" value="1">1</button>
+        <button class="numbers" id="2" value="2">2</button>
+        <button class="numbers" id="3" value="3">3</button>
+        <button class="yellow" id="result-button">=</button>
+
+        <!-- row 5 -->
+        <button class="numbers zero" id="0" value="0">0</button>
+        <button class="operators" value=".">.</button>
+      </div>
+    </div>
+    <!-- import js -->
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

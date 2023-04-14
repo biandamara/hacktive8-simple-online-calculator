@@ -1,0 +1,50 @@
+/* container */
+.container {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/* display grid */
+.grid {
+  background-color: #b5b5b5;
+  height: 30rem;
+  display: grid;
+  grid-template-columns: 5rem 5rem 5rem 5rem;
+  grid-gap: 0.1rem;
+}
+
+/* display */
+input {
+  background-color: #565656;
+  font-size: 1.5rem;
+  color: #999999;
+  padding: 1rem;
+  border: 0;
+  grid-column: 1 / span 4;
+}
+
+input[type="text"] {
+  text-align: right;
+}
+
+/* button */
+button {
+  background-color: #999999;
+  color: #5b5b5b;
+  padding: 1rem;
+  border: 0;
+  cursor: pointer;
+}
+
+/* button 0 */
+.zero {
+  grid-column: span 2;
+}
+
+/* button result */
+.yellow {
+  background-color: #ffe84c;
+  grid-row: span 2;
+}
